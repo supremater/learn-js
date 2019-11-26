@@ -21,4 +21,4 @@ console.log(false || false)
 console.log(!false)
 console.log(!!true) // !!!true => !!false => !true => false (Логика как работает)
 
-console.log((false && true) || (true || false) || !true)
+console.log((false && true) || (true || false) || !true) asgrahadehd,[]sdfgpk[asdasd]
