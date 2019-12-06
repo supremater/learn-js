@@ -1,24 +1,21 @@
-/* 
-      &&  | true  | false
-    true  | true  | false
-    false | false | false
+var carName = 'Ford'
+var carYear = 2009 
+var personYear = 2018
 
-      ||  | true | false
-    true  | true | true
-    false | true | false
 
-    && (и) - true если все значения true 
-    || (или) - true если хоть одно значение true 
-    ! (нет) - инвертирует true или false
-*/
+function calculateAge(year) {
+  var carrentYear = 2018
+  var result = carrentYear - year
+  return result
+}
 
-console.log(true || true)
-console.log(true && false)
+function chekAndLogAge(year) {
+  if (calculateAge(year) < 10) {
+    console.log('Возраст больше 10 лет')
+  } else {
+    console.log('Возраст меньше 10 лет')
+  }
+}
 
-console.log(true || false)
-console.log(false || false)
-
-console.log(!false)
-console.log(!!true) // !!!true => !!false => !true => false (Логика как работает)
-
-console.log((false && true) || (true || false) || !true) 
+chekAndLogAge(carYear + 'Возраст Машины')
+chekAndLogAge(personYear + 'Возраст Человека')
