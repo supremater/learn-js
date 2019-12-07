@@ -1,9 +1,18 @@
-let nameCar = 'Ford'
-let carYear = 2008
+const user = {
+    name: 'Alex',
+    age: 30 
+}
+
+console.log(user);
+
+user.age = 25;
+console.log(user);
 
 
-if ((2018 - carYear) < 10) {
-    console.log('Возраст машины меньше 10 лет')
-} else {
-    console.log('Возраст машины больше 10 лет')
+
+//Тип данных object
+переменная имя переменной = {
+    //Свойство объекта
+    ключ:значение
+    ключ:значение
 }
