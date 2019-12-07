@@ -1,18 +1,14 @@
-const user = {
-    name: 'Alex',
-    age: 30 
-}
+let value;
+let ago  
 
-console.log(user);
+value = String(10);
+value = (50).toString();
 
-user.age = 25;
-console.log(user);
+console.log(value);
+console.log(typeof value);
 
+ago = '42'
 
+ago = String(ago - 2)
 
-//Тип данных object
-переменная имя переменной = {
-    //Свойство объекта
-    ключ:значение
-    ключ:значение
-}
+console.log(ago);
