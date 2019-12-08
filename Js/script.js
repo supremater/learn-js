@@ -1,14 +1,13 @@
+const num1 = 10;
+const num2 = 20;
 let value;
-let ago  
 
-value = String(10);
-value = (50).toString();
+value = num1 + num2 
+
+value += 100
 
 console.log(value);
-console.log(typeof value);
 
-ago = '42'
+value = Math.PI;
+console.log(value);
 
-ago = String(ago - 2)
-
-console.log(ago);
