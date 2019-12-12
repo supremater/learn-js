@@ -9,7 +9,7 @@ function calculateAge(year) {
   return result
 }
 
-function chekAndLogAge(year) {
+function checkAndLogAge(year) {
   if (calculateAge(year) < 10) {
     console.log('Возраст больше 10 лет')
   } else {
@@ -17,5 +17,5 @@ function chekAndLogAge(year) {
   }
 }
 
-chekAndLogAge(carYear + 'Возраст Машины')
-chekAndLogAge(personYear + 'Возраст Человека')
+checkAndLogAge(carYear + 'Возраст Машины')
+checkAndLogAge(personYear + 'Возраст Человека')
