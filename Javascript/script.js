@@ -1,21 +1,20 @@
-var carName = 'Ford'
-var carYear = 2009 
-var personYear = 2018
+let carName = 'Ford'
+let carYear = 2008
+let personYear = 1990 
 
-
-function calculateAge(year) {
-  var carrentYear = 2018
-  var result = carrentYear - year
-  return result
+function calcAge(year) {
+    let currentYear = 2018 
+    let result = currentYear - year  
+    return result
 }
 
-function checkAndLogAge(year) {
-  if (calculateAge(year) < 10) {
-    console.log('Возраст больше 10 лет')
-  } else {
-    console.log('Возраст меньше 10 лет')
-  }
-}
+function checkEnd(year) {
+    if (calcAge(year) < 10) {
+        console.log('Возраст меньше 10 лет');
+    } else {
+        console.log('Возраст больше 10 лет');
+    }
+}  
 
-checkAndLogAge(carYear + 'Возраст Машины')
-checkAndLogAge(personYear + 'Возраст Человека')
+checkEnd(carYear)
+checkEnd(personYear)

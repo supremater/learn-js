@@ -31,7 +31,7 @@ console.log(srt1 + ' ' + srt2)
 /* ОПЕРАТОРЫ - Каждый оператор имеет свой приоритет.
 ----
 Допустим "=" Имеет функцию присвоения(Его приоритет это 3), последовательность приоритета зависит от его числа от самого большего к самому меньшему.  
-----я
+----
 Оператор "()" - Имеет приоритет 20(Самое большое среди операторов!) 
 
 */
@@ -135,7 +135,7 @@ if (NaN) {
 } */
 
 
-// Тернарные операторы аналогичтны тому что выше
+// Тернарные операторы аналогичны тому, что выше
 !((false || true) || !false) ? console.log('Значение true') : console.log('Значение false')
 
 
@@ -186,4 +186,28 @@ switch (carColor) {
 
 // Урок 11 Функции
 
+// Функции выполняют повторяемые процедуры.                                              
 
+let carName = 'Ford'
+let carYear = 2008
+let personYear = 1990 
+
+function calcAge(year) {
+    let currentYear = 2018 
+    let result = currentYear - year
+    return result
+}
+
+function checkEnd(year) {
+    if (calcAge(year) < 10) {
+        console.log('Возраст меньше 10 лет');
+    } else {
+        console.log('Возраст больше 10 лет');
+    }
+}  
+
+
+checkEnd(carYear)
+checkEnd(personYear)
+
+// Урок 12
