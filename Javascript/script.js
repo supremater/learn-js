@@ -1,20 +1,20 @@
-let carName = 'Ford'
-let carYear = 2008
-let personYear = 1990 
+let str1 = 'Hello world'
+let str2 = 'Hello world 2'
 
-function calcAge(year) {
-    let currentYear = 2018 
-    let result = currentYear - year  
-    return result
-}
+let personName = 'Виктор'
 
-function checkEnd(year) {
-    if (calcAge(year) < 10) {
-        console.log('Возраст меньше 10 лет');
-    } else {
-        console.log('Возраст больше 10 лет');
-    }
-}  
+let message = 'Человека зовут "' + personName + '"'
+let message2 = 'Человека зовут \'' + personName + '\''
 
-checkEnd(carYear)
-checkEnd(personYear)
+
+console.log(message2); 
+
+
+let newMessage = 'Hello world!!!'
+
+console.log(newMessage.length);
+console.log(newMessage.toUpperCase());
+console.log(newMessage.toLowerCase());
+console.log(newMessage.charAt(0));
+console.log(newMessage.indexOf('world'));
+console.log(newMessage.substring(1, 4 ))
