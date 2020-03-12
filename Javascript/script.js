@@ -17,4 +17,4 @@ console.log(newMessage.toUpperCase());
 console.log(newMessage.toLowerCase());
 console.log(newMessage.charAt(0));
 console.log(newMessage.indexOf('world'));
-console.log(newMessage.substring(1, 4 ))a
+console.log(newMessage.substring(1, 4 ))
